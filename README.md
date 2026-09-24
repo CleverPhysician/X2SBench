@@ -2,7 +2,9 @@
 
 Evaluation resources for **X2SBench: an open benchmark for evaluating crystal structure determination from powder diffraction**.
 
-This initial repository contains the element-standardized candidate scorer, its regression tests and the fixed 558-target experimental evaluation list. The accompanying experimental data archive contains 591 exact-profile-deduplicated measurements and their archived reference structures. The simulated dataset and model-specific inference runners are not included in this initial package. Publication links will be added after upload.
+This initial repository contains the element-standardized candidate scorer, its regression tests and the fixed 558-target experimental evaluation list. The accompanying experimental data archive contains 591 exact-profile-deduplicated measurements and their archived reference structures. The simulated dataset and model-specific inference runners are not included in this initial package.
+
+**[Download experimental data (591 records, approximately 42 MB)](https://github.com/CleverPhysician/X2SBench/releases/download/v0.1.0-experimental/experimental_591.zip)** · [Release notes](https://github.com/CleverPhysician/X2SBench/releases/tag/v0.1.0-experimental)
 
 ## Included
 
@@ -44,4 +46,4 @@ This is a scoring library, not an inference service or an end-to-end leaderboard
 
 See [experimental data](docs/experimental_data.md) for loading instructions and field definitions. The measured collection draws on RRUFF and opXRD. Preserve source attribution and applicable source terms. No new license is assigned to third-party data, and a software license has not yet been selected by the authors.
 
-The benchmark platform is [X2SBench at CMPDC](https://cmpdc.iphy.ac.cn/benchmarks/detail/2f). A verified manuscript identifier and versioned data download links will be added when available.
+The benchmark platform is [X2SBench at CMPDC](https://cmpdc.iphy.ac.cn/benchmarks/detail/2f). The experimental archive is versioned in [GitHub Releases](https://github.com/CleverPhysician/X2SBench/releases/tag/v0.1.0-experimental). A verified manuscript identifier will be added when available.

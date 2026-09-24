@@ -2,6 +2,8 @@
 
 ## Package and cohort
 
+[Download the versioned experimental archive](https://github.com/CleverPhysician/X2SBench/releases/download/v0.1.0-experimental/experimental_591.zip). SHA-256 of the ZIP archive: `2e0e81f8413dbee9e18e35dddf6383b09e7f3d8e6547e5fa276b568843fbd604`.
+
 `experimental_591_exact_deduplicated.pkl` contains 591 records. Every profile has 7,501 pairs of two-theta angle and intensity. Archived values are preserved without new smoothing, normalization or resampling. SHA-256 of the uncompressed file:
 
 ```text
